@@ -1,0 +1,101 @@
+body{
+    background-color:black;
+  }
+  #cal{
+    background-color:white;
+    width:280px;
+    height:420px;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  
+  #output{
+    font-family: 'Courier New', Courier, monospace;
+    text-align:right;
+    font-size: 40px;
+    height: fit-content;
+  }
+  #screen{
+    width: 95%;
+    height: 50px;
+    font-size: 45px;
+    text-align: right;
+    text-decoration: none;
+    border: none;
+    color: rgb(160, 160, 160);
+  
+  }
+  
+  #input{
+    height:200px;
+    margin-top: 5%;
+    margin-left: 2%;
+    
+  }
+  .operaztor , .number , .mt{
+    width:35px;
+    height:35px;
+    margin:15px;
+    border-radius:50%;
+    border:none;
+  }
+  
+  #divide{
+    background-color:blue;
+    color:white;
+    font-weight:bold;
+  }
+  #multiply{
+    background-color:#4B0076;
+    color:white;
+    font-weight:bold;
+  }
+  #minus{
+    background-color:orange;
+    color:white;
+    font-weight:bold;
+  }
+  #plus{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+  }
+  #equal{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+  }
+  
+button{
+  cursor: pointer;
+}
+button:hover{
+  border: solid;
+}
+.mt{
+  background-color: white;
+  margin-top: 5px;
+}
+#page{
+  display: flex;
+}
+#textt{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 50%;
+  font-size: 50px;
+}
+@media (max-width : 800px) {
+  #textt{
+    font-size: medium;
+    transition: all 2s;
+  }
+}
+@media (max-width : 500px) {
+  #textt{
+    display: none;
+    transition: all 2s;
+  }
+}
